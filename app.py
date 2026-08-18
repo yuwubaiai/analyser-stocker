@@ -84,15 +84,15 @@ filtered_df = df[
 
 def get_tag(row):
 
-if row["ROE"] >= 15 and row["PE"] <= 20 and row["股息率"] >= 3:
+ if row["ROE"] >= 15 and row["PE"] <= 20 and  row["股息率"] >= 3:
 
-return "🟢 优质"
+ return "🟢 优质"
 
-elif row["ROE"] >= 10 and row["PE"] <= 30:
+ elif row["ROE"] >= 10 and row["PE"] <= 30:
 
-return "🟡 观察"
+ return "🟡 观察"
 
-else:
+ else:
 
 return "🔴 谨慎"
 
