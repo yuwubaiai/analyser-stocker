@@ -4,7 +4,7 @@ import numpy as np
 
 st.set_page_config(page_title="股票分析框架", layout="wide", initial_sidebar_state="collapsed")
 
-st.title("📊 股票分析框架（业绩+估值+分红+可信度）")
+st.title("阿鸿的投资分析呀！）")
 st.caption("跨端通用版 · 手机电脑均可访问")
 
 # 内置演示数据
