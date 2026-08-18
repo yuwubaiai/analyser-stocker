@@ -94,7 +94,7 @@ def get_tag(row):
 
  else:
 
-return "🔴 谨慎"
+ return "🔴 谨慎"
 
 filtered_df["标签"] = filtered_df.apply(get_tag, axis=1)
 
